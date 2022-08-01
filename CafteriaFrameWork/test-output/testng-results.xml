@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="13" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-14T17:20:16 GST" name="Suite" finished-at="2022-07-14T17:22:11 GST" duration-ms="114398">
+    <groups>
+    </groups>
+    <test started-at="2022-07-14T17:20:16 GST" name="ChromeTest" finished-at="2022-07-14T17:22:11 GST" duration-ms="114398">
+      <class name="com.obs.tests.AddProductTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:17 GST" name="setup" finished-at="2022-07-14T17:20:25 GST" duration-ms="8385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidSearch()[pri:15, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:25 GST" name="verifyValidSearch" finished-at="2022-07-14T17:20:25 GST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidSearch -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:25 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:20:25 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidSearch status=SUCCESS method=AddProductTest.verifyValidSearch()[pri:15, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:25 GST" name="quitBrowser" finished-at="2022-07-14T17:20:25 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:25 GST" name="setup" finished-at="2022-07-14T17:20:33 GST" duration-ms="7840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidSearch()[pri:16, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:33 GST" name="verifyInvalidSearch" finished-at="2022-07-14T17:20:33 GST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSearch -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:33 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:20:33 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidSearch status=SUCCESS method=AddProductTest.verifyInvalidSearch()[pri:16, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:33 GST" name="quitBrowser" finished-at="2022-07-14T17:20:33 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:33 GST" name="setup" finished-at="2022-07-14T17:20:41 GST" duration-ms="8027" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfilterbutton()[pri:17, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:41 GST" name="verifyfilterbutton" finished-at="2022-07-14T17:20:43 GST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfilterbutton -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:43 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:20:43 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyfilterbutton status=SUCCESS method=AddProductTest.verifyfilterbutton()[pri:17, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:43 GST" name="quitBrowser" finished-at="2022-07-14T17:20:43 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:43 GST" name="setup" finished-at="2022-07-14T17:20:53 GST" duration-ms="10385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyentries()[pri:18, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:53 GST" name="verifyentries" finished-at="2022-07-14T17:20:57 GST" duration-ms="3348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyentries -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:57 GST" name="quitBrowser" finished-at="2022-07-14T17:20:57 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:57 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:20:57 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyentries status=SUCCESS method=AddProductTest.verifyentries()[pri:18, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:20:57 GST" name="setup" finished-at="2022-07-14T17:21:06 GST" duration-ms="9549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifydeletebutton()[pri:19, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:06 GST" name="Verifydeletebutton" finished-at="2022-07-14T17:21:07 GST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifydeletebutton -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:07 GST" name="quitBrowser" finished-at="2022-07-14T17:21:07 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:07 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:21:07 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifydeletebutton status=SUCCESS method=AddProductTest.Verifydeletebutton()[pri:19, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:07 GST" name="setup" finished-at="2022-07-14T17:21:17 GST" duration-ms="10550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifyaddproductbutton()[pri:20, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:17 GST" name="Verifyaddproductbutton" finished-at="2022-07-14T17:21:18 GST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyaddproductbutton -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:18 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:21:18 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifyaddproductbutton status=SUCCESS method=AddProductTest.Verifyaddproductbutton()[pri:20, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:18 GST" name="quitBrowser" finished-at="2022-07-14T17:21:18 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:18 GST" name="setup" finished-at="2022-07-14T17:21:30 GST" duration-ms="12339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifyprintbutton()[pri:21, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:30 GST" name="Verifyprintbutton" finished-at="2022-07-14T17:21:32 GST" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyprintbutton -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:32 GST" name="quitBrowser" finished-at="2022-07-14T17:21:32 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:32 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:21:32 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifyprintbutton status=SUCCESS method=AddProductTest.Verifyprintbutton()[pri:21, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:32 GST" name="setup" finished-at="2022-07-14T17:21:44 GST" duration-ms="12168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifycsvbuttton()[pri:23, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:44 GST" name="Verifycsvbuttton" finished-at="2022-07-14T17:21:45 GST" duration-ms="1011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifycsvbuttton -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:45 GST" name="quitBrowser" finished-at="2022-07-14T17:21:45 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:45 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:21:45 GST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifycsvbuttton status=SUCCESS method=AddProductTest.Verifycsvbuttton()[pri:23, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:45 GST" name="setup" finished-at="2022-07-14T17:21:56 GST" duration-ms="11524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifysendvalues()[pri:24, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:56 GST" name="Verifysendvalues" finished-at="2022-07-14T17:21:59 GST" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifysendvalues -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:59 GST" name="quitBrowser" finished-at="2022-07-14T17:21:59 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:59 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:21:59 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifysendvalues status=SUCCESS method=AddProductTest.Verifysendvalues()[pri:24, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:21:59 GST" name="setup" finished-at="2022-07-14T17:22:10 GST" duration-ms="11056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verifyviewproduct()[pri:26, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:22:10 GST" name="Verifyviewproduct" finished-at="2022-07-14T17:22:11 GST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifyviewproduct -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:22:11 GST" name="quitBrowser" finished-at="2022-07-14T17:22:11 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.obs.tests.AddProductTest@437da279]" started-at="2022-07-14T17:22:11 GST" name="takeScreenShotOnFailure" finished-at="2022-07-14T17:22:11 GST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verifyviewproduct status=SUCCESS method=AddProductTest.Verifyviewproduct()[pri:26, instance:com.obs.tests.AddProductTest@437da279] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.obs.tests.AddProductTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
